@@ -6,29 +6,45 @@ body {
 
 h1 {
     font-size: 40px;
+
+}
+
+h2 {
+    font-size: 30px
 }
 
 .colour {
     color: orangered;
 }
 
-section {
-    display: flex;
+.first {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 180px;
+}
 
+.rd {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.third {
+
+    display: flex;
+
+    margin-bottom: 150px;
 }
 
 .width {
     width: 50%;
     padding-left: 5%;
     padding-top: 2%;
-    padding-right: 5%;
+
 }
 
 .width img {
-    width: 40%;
+    width: 70%;
 }
 
 p {
@@ -49,4 +65,32 @@ p {
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: bottom;
+}
+
+.seven {
+    color: orange;
+
+}
+
+.experience {
+    box-shadow: 10px 10px 30px gray;
+    width: 40;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#full {
+    border-left: 10px solid red;
+
+}
+
+#baby {
+    border-left: 10px solid green;
+}
+
+footer p {
+    text-align: center;
 }
